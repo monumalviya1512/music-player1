@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/24e7d894cd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="music-player">
+        <nav>
+            <div class="circle">
+                <i class="fa-solid fa-angle-left"></i>
+            </div>
+            <div class="circle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+
+        <img src="img/monu.png.jpeg" class="song-image">
+        <h1>Kaka</h1>
+        <p>mitti Te dibbe</p>
+        <audio  id="song">
+            <source src="media/Mitti De Tibbe.mp3" type="audio/mpeg">
+        </audio>
+        <input type="range" value="0" id="progress">
+        <div class="controls">
+
+
+        
+
+            <div>
+                <i class="fa-solid fa-backward"></i>
+
+            </div>
+            <div onclick="playpause()">
+                <i class="fa-solid fa-play" id="cltr"></i>
+                
+        </div>
+        <div>
+            
+            
+            <i class="fa-solid fa-forward"></i>
+        </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
